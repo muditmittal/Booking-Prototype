@@ -1,0 +1,52 @@
+body {
+	background: url("images/00_background.png") no-repeat;
+}
+
+/*Positioning of elements*/
+.content {
+	width: 1309px;
+	padding-bottom: 120px;
+}
+
+.paymenttab {
+	margin-top: 90px;
+	margin-left: 150px;
+	width: 580px;
+}
+.paymentheader {
+	border-bottom: 1px solid #c4c4c4;
+}
+
+.transfertab {
+	margin-left: 150px;
+	width: 580px;
+	border-top: 1px solid #c4c4c4;
+	border-bottom: 1px solid #c4c4c4;
+	padding: 20px 0;
+}
+.abouttriptab {
+	margin-left: 150px;
+	width: 580px;
+	border-bottom: 1px solid #c4c4c4;
+	padding: 20px 0;
+}
+
+
+/*Initialization of Elements*/
+.tripnotes, .transfercontent, .abouttripcontent, .employeesearch {
+	display: none;
+}
+
+
+/*Styling of components*/
+.checkbox {
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    background-color: #ffffff;
+    color: #565a5c;
+}
+.btn {
+	min-width: 218px;
+	min-height: 50px;
+}
+
